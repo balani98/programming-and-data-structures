@@ -23,12 +23,10 @@ int findLengthOfLastWord(string str){
 
 int main(){
 	string str;
+	// This is the way of getting in put of string without taking length
       getline(cin, str); 
-	cout<<str;
 	int len = findLengthOfLastWord(str);
 	cout<<len;
 	
 	return 0;
-	
-	
 }
